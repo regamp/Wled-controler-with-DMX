@@ -1,3 +1,4 @@
+
 # WLED Controller with DMX Input
 
 ESP32‑S3 based WLED controller with DMX512 input, fused LED outputs, and a built‑in level shifter – designed for 12V WS2815 LED strips.
@@ -14,4 +15,4 @@ ESP32‑S3 based WLED controller with DMX512 input, fused LED outputs, and a bui
 - **Power supply**  
   - 12V DC input  
   - XL1509 buck converter (12V → 5V) for logic
-  <img width="1003" height="1101" alt="Picture" src="https://github.com/user-attachments/assets/38ccd4b9-5db8-484b-8aa1-4ba1b7b12238" />
+<img width="1617" height="1172" alt="pic" src="https://github.com/user-attachments/assets/c0d71d0a-2d86-4dc3-bb72-4724718998f3" />
