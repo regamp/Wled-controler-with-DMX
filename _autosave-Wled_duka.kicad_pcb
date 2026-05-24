@@ -516,7 +516,7 @@
 	(footprint "screw pin:77752"
 		(layer "F.Cu")
 		(uuid "1f753df3-d767-4e9c-b69d-214f54ec157f")
-		(at 101 128.23)
+		(at 100.9 131.925)
 		(descr "7775-2-3")
 		(tags "Connector")
 		(property "Reference" "J7"
@@ -11387,7 +11387,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 86.928572 127.375 0)
+		(at 86.7 129.975 0)
 		(layer "F.SilkS")
 		(uuid "7fc6f809-b9a4-416f-a333-fb086e333b8a")
 		(effects

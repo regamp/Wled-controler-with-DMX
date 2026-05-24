@@ -5097,7 +5097,7 @@
 	)
 	(rectangle
 		(start 13.97 151.13)
-		(end 142.24 191.77)
+		(end 142.24 189.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -5663,7 +5663,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 119.38) (xy 21.59 123.19)
+			(xy 21.59 119.38) (xy 21.59 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5913,7 +5913,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 107.95) (xy 19.05 123.19)
+			(xy 19.05 107.95) (xy 19.05 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6023,7 +6023,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 107.95) (xy 24.13 123.19)
+			(xy 24.13 107.95) (xy 24.13 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6423,7 +6423,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 119.38) (xy 26.67 123.19)
+			(xy 26.67 119.38) (xy 26.67 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9714,7 +9714,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 24.13 128.27 270)
+		(at 24.13 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9724,7 +9724,7 @@
 		(dnp no)
 		(uuid "6dce309f-7139-4cb0-9f1c-d24811935de5")
 		(property "Reference" "J3"
-			(at 22.86 132.08 90)
+			(at 22.86 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9734,7 +9734,7 @@
 			)
 		)
 		(property "Value" "CH1&2"
-			(at 22.86 134.62 90)
+			(at 22.86 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9744,7 +9744,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Ningbo-Kagnex:TerminalBlock_Ningbo-Kagnex_HB9500_1x04_P9.5mm"
-			(at 24.13 128.27 0)
+			(at 24.13 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9755,7 +9755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 128.27 0)
+			(at 24.13 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9766,7 +9766,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 128.27 0)
+			(at 24.13 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
