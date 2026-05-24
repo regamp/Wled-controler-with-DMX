@@ -530,6 +530,46 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "line_style": 0,
+        "name": "5V",
+        "pcb_color": "rgb(221, 133, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(221, 133, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "line_style": 0,
+        "name": "Channels",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 194, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 3,
+        "schematic_color": "rgb(132, 132, 132)",
+        "tuning_profile": ""
+      },
+      {
+        "line_style": 1,
+        "name": "RX/TX",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 0, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "line_style": 0,
+        "name": "Vin",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -537,7 +577,60 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Vin",
+        "pattern": "Vin"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "RX/TX",
+        "pattern": "RO RX"
+      },
+      {
+        "netclass": "RX/TX",
+        "pattern": "DI TX"
+      },
+      {
+        "netclass": "Channels",
+        "pattern": "IO_ch1"
+      },
+      {
+        "netclass": "Channels",
+        "pattern": "IO_ch2"
+      },
+      {
+        "netclass": "Channels",
+        "pattern": "IO_ch3"
+      },
+      {
+        "netclass": "Channels",
+        "pattern": "IO_ch4"
+      },
+      {
+        "netclass": "Channels",
+        "pattern": "CH1"
+      },
+      {
+        "netclass": "Channels",
+        "pattern": "CH2"
+      },
+      {
+        "netclass": "Channels",
+        "pattern": "CH3"
+      },
+      {
+        "netclass": "Channels",
+        "pattern": "CH4"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -617,14 +710,56 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Leírás",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referencia"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -667,7 +802,7 @@
         "uuid": "120a8a38-e990-43f6-ba11-7662a7c27749"
       }
     ],
-    "used_designators": "J1,J7-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

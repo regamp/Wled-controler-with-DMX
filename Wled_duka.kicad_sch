@@ -427,6 +427,381 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "7775-2_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J7"
+				(at 11.43 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "7775-2"
+				(at 11.43 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "77752"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/7775-2.pdf"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Terminals PC SCREW TERM RED"
+				(at -0.508 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "3.65"
+				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "534-7775-2"
+				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=534-7775-2"
+				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Keystone Electronics"
+				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "7775-2"
+				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "7775-2_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 -0.635)
+					(radius 1.7961)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "7775-2_1_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin passive line
+					(at -6.35 -0.635 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -4132,242 +4507,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "keystone_3522-2:3522-2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "3522-2"
-				(at 16.51 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "35222"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/3522-2.pdf"
-				(at 16.51 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Double ATO 257 fuseholder,15A 500Vac Keystone 15A PCB Mount Fuse Holder for 5.2 x 0.64mm Automotive Fuse, 500 V ac"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "534-3522-2"
-				(at 16.51 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3522-2?qs=sOYabIlKNmd8VtzHi7ukRg%3D%3D"
-				(at 16.51 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Keystone Electronics"
-				(at 16.51 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "3522-2"
-				(at 16.51 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "3522-2_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "keystone_7775-2:7775-2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 19.05 7.62 0)
+			(property "Reference" "J1"
+				(at 11.43 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "7775-2"
-				(at 19.05 5.08 0)
+				(at 11.43 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "77752"
@@ -4395,7 +4560,7 @@
 				)
 			)
 			(property "Description" "Terminals PC SCREW TERM RED"
-				(at 0 0 0)
+				(at -0.508 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4465,22 +4630,60 @@
 					(justify left top)
 				)
 			)
-			(symbol "7775-2_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -7.62)
+			(symbol "7775-2_0_1"
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 1.27 -0.635)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 0)
+					(radius 1.7961)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "7775-2_1_1"
+				(rectangle
+					(start -1.27 1.905)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4488,78 +4691,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4977,6 +5108,18 @@
 		(uuid "16b06644-71aa-4d38-b175-817ebcf9d8ee")
 	)
 	(rectangle
+		(start 233.68 104.14)
+		(end 273.05 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1ac3a502-52f2-4802-a6f6-d723e789b3e4")
+	)
+	(rectangle
 		(start 195.834 14.478)
 		(end 282.194 95.758)
 		(stroke
@@ -4989,8 +5132,8 @@
 		(uuid "35504a04-a1b3-458b-b658-93bdc23ebfc2")
 	)
 	(rectangle
-		(start 170.18 105.41)
-		(end 227.33 160.02)
+		(start 177.8 105.41)
+		(end 207.01 134.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -5025,6 +5168,18 @@
 		(uuid "6e8987e4-8454-461d-861f-39318cf7766b")
 	)
 	(rectangle
+		(start 238.76 135.89)
+		(end 266.7 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7166ec05-3950-4bdb-85b4-ebea5fe3794f")
+	)
+	(rectangle
 		(start 106.68 16.51)
 		(end 187.96 74.93)
 		(stroke
@@ -5048,9 +5203,41 @@
 		)
 		(uuid "db67af74-3a7c-4faa-b374-645d3c2cc9fc")
 	)
-	(text "LDO Vin-->5V-->3,3V"
+	(rectangle
+		(start 153.67 144.78)
+		(end 209.55 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e0046f32-2573-4108-92d4-c7792d8d0e35")
+	)
+	(text "Mounting holes"
 		(exclude_from_sim no)
-		(at 107.442 155.194 0)
+		(at 246.634 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "000da91e-f3d7-4c29-a0f7-39d749914140")
+	)
+	(text "BUS_R 33-200 ohm"
+		(exclude_from_sim no)
+		(at 265.176 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06792c9a-9d84-47dd-8f50-79be28ebb175")
+	)
+	(text "LDO	 Vin(9-24V)-->5V"
+		(exclude_from_sim no)
+		(at 26.924 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5058,9 +5245,19 @@
 		)
 		(uuid "0ba0aa69-2f03-40ef-ae89-194ddf4af724")
 	)
+	(text "Protection"
+		(exclude_from_sim no)
+		(at 160.274 147.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2fb8616d-06be-4f85-9434-80f70742bc63")
+	)
 	(text "Power input"
 		(exclude_from_sim no)
-		(at 177.292 108.458 0)
+		(at 185.674 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5068,9 +5265,9 @@
 		)
 		(uuid "48789e1f-3b7f-4bb1-8bfd-38e57646b369")
 	)
-	(text "Power Relay\n"
+	(text "Power Relay Driver\n"
 		(exclude_from_sim no)
-		(at 83.566 91.948 0)
+		(at 86.106 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5088,7 +5285,7 @@
 		)
 		(uuid "87592de7-45db-4d17-9a04-7f729da98701")
 	)
-	(text "Fuse "
+	(text "Fuses"
 		(exclude_from_sim no)
 		(at 19.558 94.234 0)
 		(effects
@@ -5097,6 +5294,26 @@
 			)
 		)
 		(uuid "87d09fe6-2d8a-49c0-85a0-0774bf27dd36")
+	)
+	(text "Use ~5A fuse/channel"
+		(exclude_from_sim no)
+		(at 44.196 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b7e1522-a1b2-4723-9e33-d2ce0733b15c")
+	)
+	(text "Opcional"
+		(exclude_from_sim no)
+		(at 200.914 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea3d4acf-8c59-4e4e-b058-f9cb04aac8cc")
 	)
 	(text "ESP32 MCU"
 		(exclude_from_sim no)
@@ -5107,6 +5324,16 @@
 			)
 		)
 		(uuid "ebe6659e-019a-4ebc-a1e9-1caec45eee87")
+	)
+	(text "Channels"
+		(exclude_from_sim no)
+		(at 239.776 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f29cda93-a2cd-4350-87d6-e2e8fcc6dc8c")
 	)
 	(text "DMX512 input"
 		(exclude_from_sim no)
@@ -5119,16 +5346,16 @@
 		(uuid "f79983dc-a0cc-4e73-a800-435218fef30e")
 	)
 	(junction
+		(at 26.67 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0894e444-a258-4513-8139-787b6441d0bc")
+	)
+	(junction
 		(at 76.2 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "186d7d96-010e-437d-a0f4-ba8eb65d82c3")
-	)
-	(junction
-		(at 33.02 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18cc259f-c7aa-4ab4-9d3d-963ead4a2096")
 	)
 	(junction
 		(at 140.97 63.5)
@@ -5173,12 +5400,6 @@
 		(uuid "4215b3c7-87c5-48b3-9f0c-672d0fc68a4a")
 	)
 	(junction
-		(at 185.42 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51aee0ea-3cbc-416f-b6fd-d92c32d17593")
-	)
-	(junction
 		(at 106.68 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5189,6 +5410,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60a15cd7-7a48-4761-83db-ac181632216c")
+	)
+	(junction
+		(at 38.1 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7067e7ba-e012-4a2f-b0f8-43071a9b242e")
 	)
 	(junction
 		(at 167.64 41.91)
@@ -5203,6 +5430,12 @@
 		(uuid "8c34f32f-80a2-4aa9-b99f-32f0961afa6f")
 	)
 	(junction
+		(at 186.69 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d622a6a-7d28-49d5-802f-efba3798290d")
+	)
+	(junction
 		(at 43.18 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5215,40 +5448,10 @@
 		(uuid "9ec3bf2b-6667-4eb9-ab53-37475ea23770")
 	)
 	(junction
-		(at 198.12 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4116510-c089-4318-a731-c34ac0e3b729")
-	)
-	(junction
-		(at 198.12 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a74faf24-f139-4ce5-8b48-db5e09df3743")
-	)
-	(junction
-		(at 220.98 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae5ca993-ca0d-4fcd-99fd-2208b2be5918")
-	)
-	(junction
-		(at 187.96 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b28c9287-903d-478f-a424-9e6d50b8ae8e")
-	)
-	(junction
 		(at 41.91 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8481703-29c7-4588-ae32-e41c738edf2a")
-	)
-	(junction
-		(at 38.1 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdf05d36-78ae-42f2-bc17-f30c442e5397")
 	)
 	(junction
 		(at 167.64 54.61)
@@ -5299,22 +5502,10 @@
 		(uuid "de057de6-99c5-4c14-89b8-6c49ea1832b1")
 	)
 	(junction
-		(at 185.42 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5863040-a27e-40a7-9ee5-ffc485bd4066")
-	)
-	(junction
 		(at 102.87 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed15c1c5-caff-4207-b1bf-ff9c15c05b88")
-	)
-	(junction
-		(at 208.28 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef49e5a1-7ac3-4d54-a8aa-2ad0b680910e")
 	)
 	(junction
 		(at 97.79 127)
@@ -5323,12 +5514,32 @@
 		(uuid "fb3b3d81-826e-425c-936b-1e5296fce529")
 	)
 	(no_connect
+		(at 74.93 33.02)
+		(uuid "357fb680-fb19-4f83-a1be-4c4b85622270")
+	)
+	(no_connect
+		(at 74.93 50.8)
+		(uuid "413ba473-538f-4b10-be6d-eecd81e3730c")
+	)
+	(no_connect
 		(at 54.61 44.45)
 		(uuid "472b324b-5607-4dfd-9f83-a3c93f60925c")
 	)
 	(no_connect
+		(at 74.93 35.56)
+		(uuid "d16e0a17-46c3-4301-8f24-75df44af84d1")
+	)
+	(no_connect
 		(at 54.61 46.99)
 		(uuid "d22ba9d1-a976-41f4-97d2-07dafcbfa343")
+	)
+	(no_connect
+		(at 74.93 40.64)
+		(uuid "e63485bc-bcf8-4b89-b5a2-c480fe139da3")
+	)
+	(no_connect
+		(at 74.93 38.1)
+		(uuid "fa9b7358-fe20-4431-9ae7-e40032f06d42")
 	)
 	(wire
 		(pts
@@ -5352,7 +5563,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 109.22) (xy 43.18 121.92)
+			(xy 43.18 107.95) (xy 43.18 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5402,6 +5613,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 99.06) (xy 38.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3cce91-64b6-497b-8788-a20b33b16a19")
+	)
+	(wire
+		(pts
 			(xy 97.79 127) (xy 99.06 127)
 		)
 		(stroke
@@ -5422,7 +5643,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 113.03) (xy 264.16 113.03)
+			(xy 245.11 113.03) (xy 247.65 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5502,7 +5723,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 182.88) (xy 139.7 184.15)
+			(xy 186.69 153.67) (xy 186.69 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5549,16 +5770,6 @@
 			(type default)
 		)
 		(uuid "30b1e25d-fb17-46c6-b97a-3f07b5c7f02c")
-	)
-	(wire
-		(pts
-			(xy 220.98 110.49) (xy 220.98 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30cfed67-af9c-4afc-aca0-8e20c27d6d0c")
 	)
 	(wire
 		(pts
@@ -5612,16 +5823,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 142.24) (xy 185.42 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aa4ddff-37fa-4874-a6ad-d0d2851d62df")
-	)
-	(wire
-		(pts
 			(xy 30.48 36.83) (xy 41.91 36.83)
 		)
 		(stroke
@@ -5662,26 +5863,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 151.13) (xy 187.96 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "409d818b-1132-4424-9802-a370c153c2bb")
-	)
-	(wire
-		(pts
-			(xy 220.98 120.65) (xy 220.98 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4358346e-6cdf-4fe0-af0e-747edc09c435")
-	)
-	(wire
-		(pts
 			(xy 250.19 45.72) (xy 250.19 54.61)
 		)
 		(stroke
@@ -5692,7 +5873,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 184.15) (xy 137.16 184.15)
+			(xy 186.69 154.94) (xy 184.15 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5722,7 +5903,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 118.11) (xy 264.16 118.11)
+			(xy 245.11 118.11) (xy 247.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5782,17 +5963,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 110.49) (xy 198.12 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "580e98e8-1c15-4b39-841a-7cf71bcfda0a")
-	)
-	(wire
-		(pts
-			(xy 260.35 115.57) (xy 264.16 115.57)
+			(xy 245.11 115.57) (xy 247.65 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5912,7 +6083,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 101.6) (xy 38.1 99.06)
+			(xy 38.1 100.33) (xy 38.1 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5922,7 +6093,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 184.15) (xy 120.65 184.15)
+			(xy 166.37 154.94) (xy 167.64 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6022,16 +6193,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 99.06) (xy 38.1 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "761394b3-f412-4c77-831e-d1b1ac36f6cf")
-	)
-	(wire
-		(pts
 			(xy 237.49 25.4) (xy 241.3 25.4)
 		)
 		(stroke
@@ -6112,17 +6273,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 144.78) (xy 185.42 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85339889-e7e2-4f9f-85cd-0796dbef7cef")
-	)
-	(wire
-		(pts
-			(xy 128.27 184.15) (xy 129.54 184.15)
+			(xy 175.26 154.94) (xy 176.53 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6132,7 +6283,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 101.6) (xy 46.99 99.06)
+			(xy 46.99 100.33) (xy 46.99 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6192,23 +6343,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 99.06) (xy 29.21 99.06)
+			(xy 19.05 99.06) (xy 26.67 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "937540e9-0de7-4230-921d-11d032841c54")
-	)
-	(wire
-		(pts
-			(xy 198.12 120.65) (xy 198.12 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e30c06-b765-4bc6-9050-6a85ccb77a91")
 	)
 	(wire
 		(pts
@@ -6242,16 +6383,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 123.19) (xy 198.12 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99182cff-83ac-48fd-8226-b8921aad2e94")
-	)
-	(wire
-		(pts
 			(xy 260.35 71.12) (xy 250.19 71.12)
 		)
 		(stroke
@@ -6279,16 +6410,6 @@
 			(type default)
 		)
 		(uuid "9c2369a0-230e-4542-8479-0cdfba263de3")
-	)
-	(wire
-		(pts
-			(xy 220.98 110.49) (xy 198.12 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d6cca51-dfca-433f-949d-1dee0004c05a")
 	)
 	(wire
 		(pts
@@ -6332,23 +6453,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 99.06) (xy 33.02 99.06)
+			(xy 191.77 160.02) (xy 191.77 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a71c033e-e6c8-4788-92e4-2eda528f1a4d")
-	)
-	(wire
-		(pts
-			(xy 208.28 142.24) (xy 208.28 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7266f4f-3741-4090-ba3b-95c4f5be8ae5")
+		(uuid "a4367c0b-56aa-44ea-91e1-d34ae09c97dd")
 	)
 	(wire
 		(pts
@@ -6412,16 +6523,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 139.7) (xy 208.28 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aefad5cb-5f31-40db-ad9b-1a8f9767aa73")
-	)
-	(wire
-		(pts
 			(xy 115.57 63.5) (xy 140.97 63.5)
 		)
 		(stroke
@@ -6439,16 +6540,6 @@
 			(type default)
 		)
 		(uuid "b27cbbfe-7cde-4976-9c3d-88837f974e68")
-	)
-	(wire
-		(pts
-			(xy 185.42 139.7) (xy 185.42 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3bd3adb-568c-4cec-b7f4-51855dd79854")
 	)
 	(wire
 		(pts
@@ -6512,6 +6603,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 154.94) (xy 194.31 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb01235-f77e-4b1a-81d2-4687f81c4686")
+	)
+	(wire
+		(pts
 			(xy 130.81 45.72) (xy 130.81 46.99)
 		)
 		(stroke
@@ -6519,16 +6620,6 @@
 			(type default)
 		)
 		(uuid "be5ae7d6-6a49-4ab1-b3a5-90b4e33f1ac3")
-	)
-	(wire
-		(pts
-			(xy 208.28 151.13) (xy 187.96 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "befbcc86-08a6-447a-bbc4-34bede81bd28")
 	)
 	(wire
 		(pts
@@ -6582,6 +6673,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 126.365) (xy 193.04 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71f2e26-4fba-4dd1-af2a-8b7ceb903844")
+	)
+	(wire
+		(pts
 			(xy 113.03 45.72) (xy 115.57 45.72)
 		)
 		(stroke
@@ -6592,7 +6693,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 109.22) (xy 43.18 109.22)
+			(xy 46.99 107.95) (xy 43.18 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6642,7 +6743,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 110.49) (xy 264.16 110.49)
+			(xy 245.11 110.49) (xy 247.65 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6692,7 +6793,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 109.22) (xy 38.1 121.92)
+			(xy 38.1 107.95) (xy 38.1 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6862,6 +6963,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 157.48) (xy 194.31 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf3f8e4-f6ed-432f-abc0-820e70c52b58")
+	)
+	(wire
+		(pts
 			(xy 218.44 67.31) (xy 218.44 69.85)
 		)
 		(stroke
@@ -6869,6 +6980,16 @@
 			(type default)
 		)
 		(uuid "fbfdcdc2-8acd-4dec-962a-5af0b40abfcc")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.84) (xy 193.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf49bc3-ee53-4238-a323-9ef399dc87f4")
 	)
 	(wire
 		(pts
@@ -6930,7 +7051,7 @@
 	)
 	(global_label "CH2"
 		(shape input)
-		(at 260.35 113.03 180)
+		(at 245.11 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6940,7 +7061,7 @@
 		)
 		(uuid "22310b2d-edc9-4a78-8f14-12452f4b4b75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5548 113.03 0)
+			(at 238.3148 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,7 +7339,7 @@
 	)
 	(global_label "CH4"
 		(shape input)
-		(at 260.35 118.11 180)
+		(at 245.11 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7228,7 +7349,7 @@
 		)
 		(uuid "825e4499-fd4f-4d49-98ab-df8d3a99ae90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5548 118.11 0)
+			(at 238.3148 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7290,7 +7411,7 @@
 	)
 	(global_label "CH3"
 		(shape input)
-		(at 260.35 115.57 180)
+		(at 245.11 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7300,7 +7421,7 @@
 		)
 		(uuid "a9973085-db49-44bb-936b-4b979d923975")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5548 115.57 0)
+			(at 238.3148 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7434,7 +7555,7 @@
 	)
 	(global_label "CH1"
 		(shape input)
-		(at 260.35 110.49 180)
+		(at 245.11 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7444,7 +7565,7 @@
 		)
 		(uuid "f5fa26f5-a8d9-406c-9339-fdca6489488c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5548 110.49 0)
+			(at 238.3148 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7652,7 +7773,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 33.02 99.06 0)
+		(at 26.67 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7663,7 +7784,7 @@
 		(fields_autoplaced yes)
 		(uuid "0655a6ad-15fc-49de-a6df-ce44a8329bf1")
 		(property "Reference" "#PWR014"
-			(at 33.02 102.87 0)
+			(at 26.67 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7674,7 +7795,7 @@
 			)
 		)
 		(property "Value" "Vin"
-			(at 33.02 93.98 0)
+			(at 26.67 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7684,7 +7805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 99.06 0)
+			(at 26.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7695,7 +7816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 99.06 0)
+			(at 26.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7706,7 +7827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 33.02 99.06 0)
+			(at 26.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8047,7 +8168,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 269.24 113.03 0)
+		(at 252.73 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8058,7 +8179,7 @@
 		(fields_autoplaced yes)
 		(uuid "25e6e119-55ce-47ca-9b50-4affb6fe5eb6")
 		(property "Reference" "J2"
-			(at 271.78 113.0299 0)
+			(at 255.27 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8069,7 +8190,7 @@
 			)
 		)
 		(property "Value" "DATA channels"
-			(at 271.78 115.5699 0)
+			(at 255.27 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8080,7 +8201,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Degson:TerminalBlock_Degson_DG250-3.5-04P_1x04_P3.50mm_45Degree"
-			(at 269.24 113.03 0)
+			(at 252.73 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8091,7 +8212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 113.03 0)
+			(at 252.73 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8102,7 +8223,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 269.24 113.03 0)
+			(at 252.73 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8293,7 +8414,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 119.38 184.15 90)
+		(at 166.37 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8304,7 +8425,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e702bee-587e-4a26-b6b3-776863c744f6")
 		(property "Reference" "#PWR07"
-			(at 123.19 184.15 0)
+			(at 170.18 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8315,7 +8436,7 @@
 			)
 		)
 		(property "Value" "V12"
-			(at 115.57 184.1499 90)
+			(at 162.56 154.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8326,7 +8447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 184.15 0)
+			(at 166.37 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8337,7 +8458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 184.15 0)
+			(at 166.37 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8348,7 +8469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 119.38 184.15 0)
+			(at 166.37 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8453,8 +8574,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 46.99 105.41 0)
+		(lib_id "power:VCC")
+		(at 193.04 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8463,31 +8584,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "37d10660-2225-458e-b705-5e8f60380668")
-		(property "Reference" "F4"
-			(at 49.53 104.1399 0)
+		(uuid "339d8d41-89d1-41a0-b2a8-6aa90f6f89a5")
+		(property "Reference" "#PWR026"
+			(at 193.04 120.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 49.53 106.6799 0)
+		(property "Value" "Vin"
+			(at 193.04 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "fusebox:35222"
-			(at 45.212 105.41 90)
+		(property "Footprint" ""
+			(at 193.04 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8498,7 +8618,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 105.41 0)
+			(at 193.04 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 193.04 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f149aa4b-f797-439e-bcf6-f000f36f7b7c")
+		)
+		(instances
+			(project "Wled_duka"
+				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 46.99 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37d10660-2225-458e-b705-5e8f60380668")
+		(property "Reference" "F4"
+			(at 49.53 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 49.53 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keystone_fusebox:35222"
+			(at 45.212 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8509,7 +8708,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 46.99 105.41 0)
+			(at 46.99 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8776,7 +8975,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_PTC")
-		(at 124.46 184.15 90)
+		(at 171.45 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8787,7 +8986,7 @@
 		(fields_autoplaced yes)
 		(uuid "47632a6a-58d5-4615-8524-89af2e04733e")
 		(property "Reference" "TH1"
-			(at 124.7775 177.8 90)
+			(at 171.7675 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8797,7 +8996,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 124.7775 180.34 90)
+			(at 171.7675 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8807,7 +9006,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 129.54 182.88 0)
+			(at 176.53 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,7 +9018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 184.15 0)
+			(at 171.45 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8830,7 +9029,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 124.46 184.15 0)
+			(at 171.45 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9090,156 +9289,6 @@
 			(project "Wled_duka"
 				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "keystone_3522-2:3522-2")
-		(at 58.42 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e5e3a24-31c4-4a4a-9af9-b80145d7fca8")
-		(property "Reference" "J8"
-			(at 74.93 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3522-2"
-			(at 74.93 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "35222"
-			(at 74.93 197.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/3522-2.pdf"
-			(at 74.93 297.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Double ATO 257 fuseholder,15A 500Vac Keystone 15A PCB Mount Fuse Holder for 5.2 x 0.64mm Automotive Fuse, 500 V ac"
-			(at 58.42 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 74.93 497.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "534-3522-2"
-			(at 74.93 597.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3522-2?qs=sOYabIlKNmd8VtzHi7ukRg%3D%3D"
-			(at 74.93 697.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 74.93 797.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3522-2"
-			(at 74.93 897.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "4"
-			(uuid "a7d629b7-ec53-40ab-aa30-614234e258ce")
-		)
-		(pin "3"
-			(uuid "d31dbc68-edbe-4ead-8ba4-7ffa69367da4")
-		)
-		(pin "2"
-			(uuid "b900c2c2-7e94-43e5-8410-2691c0a0f766")
-		)
-		(pin "1"
-			(uuid "fa6b3506-03fa-4641-9411-2171e41d0669")
-		)
-		(instances
-			(project "Wled_duka"
-				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9563,7 +9612,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 133.35 184.15 0)
+		(at 180.34 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9574,7 +9623,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a2850ee-2dec-4b40-9ecf-fc52e332a160")
 		(property "Reference" "D2"
-			(at 133.0325 177.8 0)
+			(at 180.0225 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9584,7 +9633,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 133.0325 180.34 0)
+			(at 180.0225 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9594,7 +9643,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 133.35 188.595 0)
+			(at 180.34 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9605,7 +9654,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 133.35 184.15 0)
+			(at 180.34 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9616,7 +9665,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 133.35 184.15 0)
+			(at 180.34 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10179,6 +10228,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 191.77 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82c53da2-fd40-40b2-8977-17cb34a3c513")
+		(property "Reference" "#PWR027"
+			(at 191.77 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ecf9176-1be5-4693-a82a-31213143b6c2")
+		)
+		(instances
+			(project "Wled_duka"
+				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74AHCT125")
 		(at 229.87 43.18 0)
 		(unit 2)
@@ -10443,7 +10570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fusebox:35222"
+		(property "Footprint" "Keystone_fusebox:35222"
 			(at 27.432 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -10571,7 +10698,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 139.7 182.88 0)
+		(at 186.69 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10582,7 +10709,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ff23c57-52be-4862-9f52-47ebfa9d09b0")
 		(property "Reference" "#PWR013"
-			(at 139.7 186.69 0)
+			(at 186.69 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10593,7 +10720,7 @@
 			)
 		)
 		(property "Value" "Vin"
-			(at 139.7 177.8 0)
+			(at 186.69 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10603,7 +10730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 182.88 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10614,7 +10741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 182.88 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10625,7 +10752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 139.7 182.88 0)
+			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10661,6 +10788,7 @@
 		(uuid "92261555-1a15-4f4e-93c5-c455a31facc2")
 		(property "Reference" "J1"
 			(at 209.55 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10671,6 +10799,7 @@
 		)
 		(property "Value" "7775-2"
 			(at 209.55 115.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10679,7 +10808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "77752"
+		(property "Footprint" "Keystone_77752"
 			(at 217.17 215.57 0)
 			(hide yes)
 			(show_name no)
@@ -10704,7 +10833,7 @@
 			)
 		)
 		(property "Description" "Terminals PC SCREW TERM RED"
-			(at 198.12 120.65 0)
+			(at 197.612 114.808 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10774,20 +10903,8 @@
 				(justify left top)
 			)
 		)
-		(pin "MH1"
-			(uuid "77fb7e48-603c-48d0-9293-1ccab1ede4a2")
-		)
-		(pin "3"
-			(uuid "7dfa3652-5f14-45ee-a32c-ba40499159da")
-		)
-		(pin "4"
-			(uuid "32d4e525-3915-4b9e-9a77-40939cb89fb9")
-		)
 		(pin "1"
 			(uuid "41c5a4f7-c007-40c2-897a-399d5821a1de")
-		)
-		(pin "2"
-			(uuid "a4ac5c75-fb6b-4e7b-8a1f-6e0b7ff0f556")
 		)
 		(instances
 			(project "Wled_duka"
@@ -11280,7 +11397,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 38.1 105.41 0)
+		(at 38.1 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11291,7 +11408,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5309efb-df19-4406-95c7-c1a3326e66a5")
 		(property "Reference" "F3"
-			(at 40.64 104.1399 0)
+			(at 40.64 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11302,7 +11419,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 40.64 106.6799 0)
+			(at 40.64 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11312,8 +11429,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fusebox:35222"
-			(at 36.322 105.41 90)
+		(property "Footprint" "Keystone_fusebox:35222"
+			(at 36.322 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11324,7 +11441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 105.41 0)
+			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11335,7 +11452,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 38.1 105.41 0)
+			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11472,7 +11589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fusebox:35222"
+		(property "Footprint" "Keystone_fusebox:35222"
 			(at 17.272 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -11598,7 +11715,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 151.13 0)
+		(at 193.04 127.635 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11609,7 +11726,7 @@
 		(fields_autoplaced yes)
 		(uuid "b33fa14f-1276-42dd-9af2-6759ea53b733")
 		(property "Reference" "#PWR08"
-			(at 187.96 157.48 0)
+			(at 193.04 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11620,7 +11737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 156.21 0)
+			(at 193.04 132.715 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11630,7 +11747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 151.13 0)
+			(at 193.04 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11641,7 +11758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 151.13 0)
+			(at 193.04 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11652,7 +11769,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 151.13 0)
+			(at 193.04 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11932,7 +12049,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c46e831d-2fc7-4fb7-b225-2a0a10bd0b6d")
 		(property "Reference" "C6"
 			(at 111.76 172.7199 0)
@@ -11946,7 +12062,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 111.76 175.2599 0)
+			(at 111.506 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12159,6 +12275,88 @@
 			(project "Wled_duka"
 				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 199.39 157.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd30a30b-80f2-4c88-9a10-45143839813b")
+		(property "Reference" "J8"
+			(at 200.66 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Vin_alt"
+			(at 200.66 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 199.39 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 199.39 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1684e76a-0b81-4046-b0b2-80520ade3e59")
+		)
+		(pin "1"
+			(uuid "6c9af359-2bee-4721-bd06-e5f414c2b54a")
+		)
+		(instances
+			(project "Wled_duka"
+				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -13314,8 +13512,9 @@
 		)
 	)
 	(symbol
+		(lib_name "7775-2_1")
 		(lib_id "keystone_7775-2:7775-2")
-		(at 185.42 139.7 0)
+		(at 199.39 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13326,7 +13525,8 @@
 		(fields_autoplaced yes)
 		(uuid "ff072269-6f46-4d11-b6df-d6b996b45281")
 		(property "Reference" "J7"
-			(at 196.85 132.08 0)
+			(at 210.82 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13336,7 +13536,8 @@
 			)
 		)
 		(property "Value" "7775-2"
-			(at 196.85 134.62 0)
+			(at 210.82 120.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13345,8 +13546,8 @@
 				)
 			)
 		)
-		(property "Footprint" "77752"
-			(at 204.47 234.62 0)
+		(property "Footprint" "Keystone_77752"
+			(at 218.44 220.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13358,7 +13559,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/7775-2.pdf"
-			(at 204.47 334.62 0)
+			(at 218.44 320.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13370,7 +13571,7 @@
 			)
 		)
 		(property "Description" "Terminals PC SCREW TERM RED"
-			(at 185.42 139.7 0)
+			(at 198.882 122.936 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13381,7 +13582,7 @@
 			)
 		)
 		(property "Height" "3.65"
-			(at 204.47 534.62 0)
+			(at 218.44 520.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13393,7 +13594,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-7775-2"
-			(at 204.47 634.62 0)
+			(at 218.44 620.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13405,7 +13606,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=534-7775-2"
-			(at 204.47 734.62 0)
+			(at 218.44 720.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13417,7 +13618,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 204.47 834.62 0)
+			(at 218.44 820.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13429,7 +13630,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "7775-2"
-			(at 204.47 934.62 0)
+			(at 218.44 920.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13440,20 +13641,8 @@
 				(justify left top)
 			)
 		)
-		(pin "MH1"
-			(uuid "80773739-a0d3-4ba0-b0e8-024841ad79a5")
-		)
-		(pin "3"
-			(uuid "844c0cca-02db-44ae-8b60-b2d7cac93d30")
-		)
-		(pin "4"
-			(uuid "da0269c2-99a7-429a-856c-11464bc50df3")
-		)
 		(pin "1"
 			(uuid "2c839358-8b90-43ab-8811-40317eb3846f")
-		)
-		(pin "2"
-			(uuid "e8188ca5-ed50-4444-89fc-17274164db5e")
 		)
 		(instances
 			(project "Wled_duka"
