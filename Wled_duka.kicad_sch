@@ -8558,6 +8558,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "576-SMF12A"
+			(at 167.64 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fcd7e826-ec0f-476c-ae25-67fdcadfea45")
 		)
@@ -8708,6 +8719,17 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 46.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "534-3522-2"
 			(at 46.99 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10103,7 +10125,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10603,6 +10625,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "534-3522-2"
+			(at 29.21 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aaf626ee-abfb-46ae-a54c-2a9288076000")
 		)
@@ -10855,7 +10888,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "534-7775-2"
+		(property "Mouser Part Number" "534-7775"
 			(at 217.17 615.57 0)
 			(hide yes)
 			(show_name no)
@@ -11462,6 +11495,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "534-3522-2"
+			(at 38.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9134d075-6fcd-4a94-a8b4-926974a3af37")
 		)
@@ -11612,6 +11656,17 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 19.05 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "534-3522-2"
 			(at 19.05 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13180,6 +13235,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "576-SMF12A"
+			(at 156.21 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3d58a8b-8eab-483a-a91b-d0dcda1cf3dd")
 		)
@@ -13593,7 +13659,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "534-7775-2"
+		(property "Mouser Part Number" "534-7775"
 			(at 218.44 620.65 0)
 			(hide yes)
 			(show_name no)
