@@ -5370,10 +5370,16 @@
 		(uuid "1fe5e5e9-9f91-42cc-88d8-642bc911be41")
 	)
 	(junction
-		(at 156.21 39.37)
+		(at 140.97 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3167c892-4573-42bf-bb84-b68a35bb92f9")
+		(uuid "2827ac8c-ac7b-4fdb-868b-abd7865de734")
+	)
+	(junction
+		(at 50.8 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b0a69db-932d-4364-8579-bf42d65d9327")
 	)
 	(junction
 		(at 29.21 99.06)
@@ -5400,6 +5406,18 @@
 		(uuid "4215b3c7-87c5-48b3-9f0c-672d0fc68a4a")
 	)
 	(junction
+		(at 153.67 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "455a9aaa-40a7-4981-9f2d-da7381082d5a")
+	)
+	(junction
+		(at 153.67 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b7f9e6a-1709-4959-b3c1-082379bffdc0")
+	)
+	(junction
 		(at 106.68 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5418,12 +5436,6 @@
 		(uuid "7067e7ba-e012-4a2f-b0f8-43071a9b242e")
 	)
 	(junction
-		(at 167.64 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7902f797-c38b-4561-b69f-f261f872f135")
-	)
-	(junction
 		(at 38.1 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5434,6 +5446,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d622a6a-7d28-49d5-802f-efba3798290d")
+	)
+	(junction
+		(at 161.29 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956274bc-7342-4c39-ad46-31868e32c727")
 	)
 	(junction
 		(at 43.18 44.45)
@@ -5452,6 +5470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8481703-29c7-4588-ae32-e41c738edf2a")
+	)
+	(junction
+		(at 167.64 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba82d367-82d5-4e26-9518-f7878e1decbd")
 	)
 	(junction
 		(at 167.64 54.61)
@@ -5573,16 +5597,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 39.37) (xy 171.45 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06ff8134-0fea-4b59-a295-4af5b417f78a")
-	)
-	(wire
-		(pts
 			(xy 41.91 36.83) (xy 44.45 36.83)
 		)
 		(stroke
@@ -5593,7 +5607,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 41.91) (xy 167.64 45.72)
+			(xy 167.64 41.91) (xy 167.64 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5620,6 +5634,16 @@
 			(type default)
 		)
 		(uuid "0d3cce91-64b6-497b-8788-a20b33b16a19")
+	)
+	(wire
+		(pts
+			(xy 153.67 35.56) (xy 153.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f958ef1-6f23-40d5-8ad1-54eac9a7fa56")
 	)
 	(wire
 		(pts
@@ -5663,6 +5687,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 27.94) (xy 153.67 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcfb135-05c5-443f-a59e-1b6e6a6d50d6")
+	)
+	(wire
+		(pts
 			(xy 21.59 119.38) (xy 21.59 121.92)
 		)
 		(stroke
@@ -5690,6 +5724,16 @@
 			(type default)
 		)
 		(uuid "24901e38-7c7e-42ac-b612-56c33d8cf39d")
+	)
+	(wire
+		(pts
+			(xy 153.67 26.67) (xy 140.97 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f66f88-fb93-45bf-81e7-a75091bd80fe")
 	)
 	(wire
 		(pts
@@ -5883,6 +5927,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 44.45) (xy 162.56 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a317455-fd93-44fa-a199-d2026a71c00d")
+	)
+	(wire
+		(pts
 			(xy 106.68 100.33) (xy 121.92 100.33)
 		)
 		(stroke
@@ -6053,13 +6107,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 53.34) (xy 167.64 54.61)
+			(xy 167.64 50.8) (xy 167.64 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "61ae24b0-b025-4156-bca3-8f6347e30b0c")
+	)
+	(wire
+		(pts
+			(xy 153.67 54.61) (xy 153.67 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62dfa46a-b103-4c86-8b1a-5fe9df508d47")
 	)
 	(wire
 		(pts
@@ -6113,7 +6177,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 26.67) (xy 60.96 26.67)
+			(xy 41.91 26.67) (xy 50.8 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6433,7 +6497,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 54.61) (xy 167.64 54.61)
+			(xy 153.67 63.5) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9b1d18-14da-48bb-8a54-78a4639b5911")
+	)
+	(wire
+		(pts
+			(xy 161.29 54.61) (xy 167.64 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6443,7 +6517,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 39.37) (xy 156.21 46.99)
+			(xy 161.29 39.37) (xy 161.29 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6653,7 +6727,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 44.45) (xy 162.56 44.45)
+			(xy 151.13 44.45) (xy 153.67 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6710,6 +6784,16 @@
 			(type default)
 		)
 		(uuid "cab2a34a-6a22-4ac2-a069-2a9f50803338")
+	)
+	(wire
+		(pts
+			(xy 153.67 39.37) (xy 161.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb624761-3800-477b-a233-518cba8c68a3")
 	)
 	(wire
 		(pts
@@ -6813,6 +6897,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 62.23) (xy 153.67 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1aab0c1-4070-43e7-a3d7-6f58803aee44")
+	)
+	(wire
+		(pts
 			(xy 96.52 160.02) (xy 72.39 160.02)
 		)
 		(stroke
@@ -6893,7 +6987,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 39.37) (xy 156.21 39.37)
+			(xy 151.13 39.37) (xy 153.67 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6910,6 +7004,16 @@
 			(type default)
 		)
 		(uuid "ed8081fa-49b7-4f6d-bf48-8d6b0dbdb8a9")
+	)
+	(wire
+		(pts
+			(xy 50.8 26.67) (xy 60.96 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee001d6c-bda5-4922-b8ee-7dcae050a06f")
 	)
 	(wire
 		(pts
@@ -6940,6 +7044,16 @@
 			(type default)
 		)
 		(uuid "f7ccca16-6d00-4db7-a3ec-c6910eb11082")
+	)
+	(wire
+		(pts
+			(xy 161.29 39.37) (xy 171.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ffa5d1-fc56-4963-9769-d737a1a7cbb3")
 	)
 	(wire
 		(pts
@@ -8493,7 +8607,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMF12A")
-		(at 167.64 49.53 270)
+		(at 167.64 46.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8504,7 +8618,7 @@
 		(fields_autoplaced yes)
 		(uuid "333f993f-f5c1-4afb-a0bf-e8f589d2db0a")
 		(property "Reference" "D3"
-			(at 170.18 48.2599 90)
+			(at 170.18 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8515,7 +8629,7 @@
 			)
 		)
 		(property "Value" "SMF12A"
-			(at 170.18 50.7999 90)
+			(at 170.18 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8526,7 +8640,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 162.56 49.53 0)
+			(at 162.56 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8537,7 +8651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 167.64 48.26 0)
+			(at 167.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8662,7 @@
 			)
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, SMF"
-			(at 167.64 49.53 0)
+			(at 167.64 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8559,7 +8673,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMF12A"
-			(at 167.64 49.53 90)
+			(at 167.64 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9317,6 +9431,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 153.67 58.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f4881c0-c2be-47db-8899-4d6327732105")
+		(property "Reference" "R9"
+			(at 156.21 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 156.21 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 155.448 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69046c51-a979-498d-af34-86cf83263529")
+		)
+		(pin "2"
+			(uuid "ee210be6-d558-4d74-b73c-026cd20d04b3")
+		)
+		(instances
+			(project "Wled_duka"
+				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:XL1509-5.0")
 		(at 55.88 167.64 0)
 		(unit 1)
@@ -9528,6 +9724,84 @@
 				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
 					(reference "U3")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 140.97 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "698bc1bf-25bf-4f9a-b427-963c1000df11")
+		(property "Reference" "#PWR028"
+			(at 140.97 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3,3V"
+			(at 140.97 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 140.97 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c217e94-2a68-4da6-a97a-898fbb492bdf")
+		)
+		(instances
+			(project "Wled_duka"
+				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
+					(reference "#PWR028")
+					(unit 1)
 				)
 			)
 		)
@@ -10849,84 +11123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 140.97 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92880ab8-fcc5-4a39-9fdd-21497b57e649")
-		(property "Reference" "#PWR022"
-			(at 140.97 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 140.97 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "370d4575-1e51-468a-a91b-92ed832b226c")
-		)
-		(instances
-			(project "Wled_duka"
-				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 228.6 88.9 0)
 		(unit 1)
@@ -11747,6 +11943,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3850cbc-0f25-4273-83b1-b5016ed1bd0d")
+		(property "Reference" "#PWR022"
+			(at 50.8 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3,3V"
+			(at 50.8 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30383db6-86a8-406a-9603-e6cfcf96680e")
+		)
+		(instances
+			(project "Wled_duka"
+				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 26.67 119.38 180)
 		(unit 1)
@@ -11907,6 +12181,88 @@
 			(project "Wled_duka"
 				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c01eb414-81aa-470d-b67e-efc26343ce16")
+		(property "Reference" "R8"
+			(at 156.21 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 156.21 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 155.448 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c6eadf0-241a-46f8-bcc7-e3f0d88e06be")
+		)
+		(pin "2"
+			(uuid "e61216a5-73c6-40e0-ad2a-261b3ab92a81")
+		)
+		(instances
+			(project "Wled_duka"
+				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13070,7 +13426,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMF12A")
-		(at 156.21 50.8 270)
+		(at 161.29 50.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13081,7 +13437,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed57fedb-037f-468b-b8b8-405f8f098149")
 		(property "Reference" "D5"
-			(at 158.75 49.5299 90)
+			(at 163.83 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13092,7 +13448,7 @@
 			)
 		)
 		(property "Value" "SMF12A"
-			(at 158.75 52.0699 90)
+			(at 163.83 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13103,28 +13459,6 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 151.13 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 156.21 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, SMF"
 			(at 156.21 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13135,8 +13469,30 @@
 				)
 			)
 		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 161.29 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, SMF"
+			(at 161.29 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Mouser Part Number" "576-SMF12A"
-			(at 156.21 50.8 90)
+			(at 161.29 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
