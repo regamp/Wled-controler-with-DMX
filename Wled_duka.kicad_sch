@@ -3406,7 +3406,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_UART:MAX485E"
+		(symbol "Interface_UART:MAX3485"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3422,7 +3422,7 @@
 					)
 				)
 			)
-			(property "Value" "MAX485E"
+			(property "Value" "MAX3485"
 				(at 1.905 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3444,7 +3444,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3455,7 +3455,7 @@
 					)
 				)
 			)
-			(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
+			(property "Description" "True RS-485/RS-422, 10Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3466,7 +3466,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "transceiver"
+			(property "ki_keywords" "RS-485 RS-422 UART line-driver transceiver"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3488,7 +3488,7 @@
 					)
 				)
 			)
-			(symbol "MAX485E_0_1"
+			(symbol "MAX3485_0_1"
 				(rectangle
 					(start -7.62 12.7)
 					(end 7.62 -12.7)
@@ -3655,7 +3655,7 @@
 					)
 				)
 			)
-			(symbol "MAX485E_1_1"
+			(symbol "MAX3485_1_1"
 				(circle
 					(center -0.762 2.54)
 					(radius 0.508)
@@ -9317,106 +9317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:MAX485E")
-		(at 140.97 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5efd1d0a-ea5d-4da0-ab46-4cab790e33af")
-		(property "Reference" "U4"
-			(at 143.1133 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX485E"
-			(at 143.1133 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 140.97 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
-			(at 140.97 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
-			(at 140.97 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "1dba044c-19e4-4371-9e38-7bb9234e3c04")
-		)
-		(pin "3"
-			(uuid "8c4bfc85-175c-472b-852e-786de79d5cef")
-		)
-		(pin "2"
-			(uuid "975096ec-0dd9-4518-9762-7a33bc507566")
-		)
-		(pin "6"
-			(uuid "a4fd4549-5f7c-4a1b-b6a7-915d194c57c6")
-		)
-		(pin "5"
-			(uuid "2e99f622-a387-45e4-9810-888855112430")
-		)
-		(pin "8"
-			(uuid "834e957f-6620-4531-9234-0bfb2d197d1c")
-		)
-		(pin "1"
-			(uuid "a40242a9-d1ab-4d21-b4be-f0e3b36b806a")
-		)
-		(pin "7"
-			(uuid "78224575-3e7e-4c88-bc1a-797116aee130")
-		)
-		(instances
-			(project "Wled_duka"
-				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Switching:XL1509-5.0")
 		(at 55.88 167.64 0)
 		(unit 1)
@@ -13334,6 +13234,106 @@
 			(project "Wled_duka"
 				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_UART:MAX3485")
+		(at 140.97 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee106d16-3a28-4d13-937f-d6519788e0dd")
+		(property "Reference" "U5"
+			(at 143.1133 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX3485"
+			(at 143.1133 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 140.97 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf"
+			(at 140.97 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "True RS-485/RS-422, 10Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "9b721566-84d5-4b26-9cc6-abb08ee61a2f")
+		)
+		(pin "7"
+			(uuid "29df9e4e-38d6-4ce8-b468-f72604a8ea27")
+		)
+		(pin "4"
+			(uuid "505c6986-e581-43ac-82d0-fb0a5c135b9d")
+		)
+		(pin "6"
+			(uuid "2a95abc4-0a35-410e-8bce-acd5ae41ed16")
+		)
+		(pin "3"
+			(uuid "24fa576f-bd7f-4e72-8051-074f58cb3567")
+		)
+		(pin "2"
+			(uuid "1e54e79f-c6e5-4410-9820-27ad78440920")
+		)
+		(pin "1"
+			(uuid "16278864-0989-4f40-aaac-864ec9ab3c88")
+		)
+		(pin "8"
+			(uuid "4068dd0c-826d-4059-8a42-bf01c3003747")
+		)
+		(instances
+			(project "Wled_duka"
+				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
+					(reference "U5")
 					(unit 1)
 				)
 			)
