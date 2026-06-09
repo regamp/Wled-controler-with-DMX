@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 2.0,
+          "corner_radius": 1.0,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 2,
           "remove_islands": 1,
           "thermal_relief_gap": 0.5,
@@ -248,6 +248,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.2,
+          "drill": 0.1
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -636,7 +644,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Output",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -752,6 +760,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -790,6 +804,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -802,7 +824,7 @@
         "uuid": "120a8a38-e990-43f6-ba11-7662a7c27749"
       }
     ],
-    "used_designators": "#PWR22,#PWR28,R8-9,U5",
+    "used_designators": "R11-12,C8-10,Q1,U1-2,U4-5",
     "variants": []
   },
   "sheets": [
