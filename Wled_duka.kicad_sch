@@ -5262,7 +5262,7 @@
 	)
 	(rectangle
 		(start 13.97 151.13)
-		(end 124.46 189.23)
+		(end 129.54 189.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -5536,7 +5536,13 @@
 		(at 113.03 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "033503e2-b467-4439-8fb4-95ebe6118aae")
+		(uuid "005f3c1f-9e12-455c-b0fb-8b0db2f88280")
+	)
+	(junction
+		(at 111.76 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05727e1f-bf3c-4271-88bc-a8833d888482")
 	)
 	(junction
 		(at 26.67 99.06)
@@ -5579,6 +5585,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "363cafac-5c61-453b-ad09-d1c4086d7868")
+	)
+	(junction
+		(at 111.76 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3800845b-37f7-4f5e-a077-dd455ef9c601")
 	)
 	(junction
 		(at 29.21 99.06)
@@ -5822,7 +5834,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 179.07) (xy 113.03 179.07)
+			(xy 100.33 179.07) (xy 111.76 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6052,7 +6064,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 168.91) (xy 113.03 170.18)
+			(xy 120.65 168.91) (xy 120.65 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6192,6 +6204,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 177.8) (xy 111.76 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4623e853-42f3-4c8d-a4df-f8bfd53a5bab")
+	)
+	(wire
+		(pts
 			(xy 153.67 44.45) (xy 162.56 44.45)
 		)
 		(stroke
@@ -6262,6 +6284,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 179.07) (xy 120.65 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e187239-7476-4e31-bc09-6184a8c76722")
+	)
+	(wire
+		(pts
 			(xy 106.68 120.65) (xy 106.68 121.92)
 		)
 		(stroke
@@ -6279,6 +6311,16 @@
 			(type default)
 		)
 		(uuid "53369258-b37c-4cac-bd0b-b4a8d21c14f7")
+	)
+	(wire
+		(pts
+			(xy 111.76 168.91) (xy 111.76 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f59768-7121-467e-9225-a4862bd50bdf")
 	)
 	(wire
 		(pts
@@ -6312,7 +6354,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 177.8) (xy 113.03 179.07)
+			(xy 120.65 177.8) (xy 120.65 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6459,6 +6501,16 @@
 			(type default)
 		)
 		(uuid "6d4d24d8-6884-463e-99dd-30dd88cc5b1d")
+	)
+	(wire
+		(pts
+			(xy 111.76 168.91) (xy 113.03 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d852eb7-7a6e-48fb-bf36-00d2e8ae7ae1")
 	)
 	(wire
 		(pts
@@ -6819,6 +6871,16 @@
 			(type default)
 		)
 		(uuid "a2966fae-5d0d-4173-a306-c5a634e4d0fc")
+	)
+	(wire
+		(pts
+			(xy 120.65 168.91) (xy 113.03 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f875ee-5a4e-467d-b58e-841759ddd20c")
 	)
 	(wire
 		(pts
@@ -7202,7 +7264,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 168.91) (xy 113.03 168.91)
+			(xy 100.33 168.91) (xy 111.76 168.91)
 		)
 		(stroke
 			(width 0)
@@ -11883,6 +11945,98 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 111.76 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c69c1f4-853f-4c18-9117-c00c91c897c6")
+		(property "Reference" "C11"
+			(at 115.57 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 108.966 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 112.7252 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 111.76 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "EEU-FR1C101B "
+			(at 111.76 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5519e69b-b1f9-4de7-a532-ec4c64cb808e")
+		)
+		(pin "1"
+			(uuid "714e6897-6957-4cc4-8a52-b5920311aa89")
+		)
+		(instances
+			(project "Wled_duka"
+				(path "/120a8a38-e990-43f6-ba11-7662a7c27749"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 17.78 171.45 0)
 		(unit 1)
 		(body_style 1)
@@ -11996,7 +12150,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "47uF"
 			(at 34.29 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12007,7 +12161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 31.4452 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12040,7 +12194,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "EEU-FR1C101B "
+		(property "Mouser Part Number" "667-EEU-FR1C101B"
 			(at 30.48 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13312,7 +13466,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 173.99 180)
+		(at 120.65 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13322,7 +13476,7 @@
 		(dnp no)
 		(uuid "c46e831d-2fc7-4fb7-b225-2a0a10bd0b6d")
 		(property "Reference" "C6"
-			(at 116.84 172.7199 0)
+			(at 124.46 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13333,7 +13487,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 116.586 175.514 0)
+			(at 124.206 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13344,7 +13498,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 112.0648 170.18 0)
+			(at 119.6848 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13355,7 +13509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 173.99 0)
+			(at 120.65 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13366,7 +13520,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 173.99 0)
+			(at 120.65 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13377,7 +13531,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-AC402KRX7R9BB104"
-			(at 113.03 173.99 0)
+			(at 120.65 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
